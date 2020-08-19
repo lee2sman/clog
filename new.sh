@@ -4,7 +4,7 @@ DT=$(date)
 IFS=''
 INDEX_FILE=index
 
-echo "Title of blog post to create:"
+echo "Title of clog post to create:"
 read TITLE
 
 FILE_COUNT=$(ls | wc -l)
