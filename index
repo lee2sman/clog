@@ -1,1 +1,5 @@
+	Welcome to the clog. 
+	Usage:
+	curl -s https://leetusman.com/clog/<number> to see a particular clog post
+
 	4:	hello clog
