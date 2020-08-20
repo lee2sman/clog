@@ -1,0 +1,19 @@
+[2mThu Aug 20 02:23:00 EDT 2020[0m
+[4mtext fantasy console[0m
+
+A few years ago I started experimenting with the text-user interface software called dialog. It's from the early 90s. You can still install it easily with: brew install dialog   if you're on a Mac, or on Linux:  apt install dialog.
+
+With this library you can now create text-user interface dialog boxes in one-line of code.
+
+For example, here is a simple message box: 
+
+dialog --msgbox "Hello World, test test test"
+
+This will produce what appears to me like an old DOS text interface. In other words, it looks great! I've been wanting to use this to create branching text narratives, complete with audio soundtrack, maybe even ASCII art. It can be coded with BASH and dialog and the sound library of your choice. I've been thinking of this combo as serving as a sort of *fantasy-console*, inspired by Pico-8, Tic-80 and the bumper crop of these fantasy consoles that provide useful constraints for making games and art.
+
+Here's a prototype of what one of these stories could look like. It's a cyberpunkish narrative, not quite a game as I didn't implement branching narrative. Hopefully it gives a good flavor. In addition to dialog you'll need a way to play audio such as aplay, afplay, mplayer built-in.
+
+You can download it here:
+https://github.com/lee2sman/sssh.git
+
+I'm thinking now is the time to revive and build a little framework or template system around this.
