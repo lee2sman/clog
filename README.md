@@ -10,7 +10,7 @@ This is an instance of an [idea](https://github.com/jameschip/clog) devised by [
 Run the following in your terminal (the -s is for *silent mode* so you don't see all the header cruft).
 
 ```
-curl -s leetusman.com/clog/index
+curl -s https://leetusman.com/clog/index
 ```
 
 This will return a list of all clog posts you can read.
@@ -18,5 +18,7 @@ This will return a list of all clog posts you can read.
 To access a specific post you can run 
 
 ```
-curl -s leetusman.com/clog/<number id>
+curl -s https://leetusman.com/clog/<number id>
 ```
+
+To see a list of other clogs (at the time I'm writing this there are 3!), you can visit a clog ring page here in your browser: [https://www.jameschip.io/clogs/](https://www.jameschip.io/clogs/)
